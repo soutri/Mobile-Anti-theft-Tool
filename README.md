@@ -1,4 +1,5 @@
-# Mobile-Anti-theft-Tool
+# Antivol
+
 This Mobile application was made as an academic group project.
 1) The main aim of this project is to let the user get an alert if the sim in his phone has been changed via an sms(to the backup number)
    and email provided during the registration of the app.

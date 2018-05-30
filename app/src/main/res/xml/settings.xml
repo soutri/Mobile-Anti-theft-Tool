@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Changing Sim?" >
+        <SwitchPreference
+            android:key="simKey"
+            android:title="Changing Sim?"
+            android:summary="check this if you are changing sim so that Antivol won't get activated"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Connectivity" >
+        <EditTextPreference
+            android:key="dataonkey"
+            android:title="On Mobile Data"
+            android:summary="Enter code to Turn on Mobile Data"/>
+
+        <EditTextPreference
+            android:key="dataoffkey"
+            android:title="Off Mobile Data"
+            android:summary="Enter code to Turn off Mobile Data"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Miscellaneous" >
+        <EditTextPreference
+            android:key="antivolpasswordkey"
+            android:summary="Change Password here"
+            android:title="AntiVol Password" >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="backupnumberkey"
+            android:summary="Change backup number here"
+            android:title="Backup Number" >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="callbackkey"
+            android:summary="Enter code to call back"
+            android:title="Call Back" >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="locationkey"
+            android:summary="Enter code to get location"
+            android:title="Get Location" >
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="ringervolumekey"
+            android:summary="Enter code to set ringer mode to high volume"
+            android:title="Ringer - HighVolume" >
+        </EditTextPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
